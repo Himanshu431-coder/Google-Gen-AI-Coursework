@@ -39,8 +39,8 @@ Every day, households stare at random ingredients in the fridge, unsure how to c
 
 This system utilizes a **Sequential Multi-Agent Chain** with a **Self-Correction Loop**.
 
-![JARVIS Kitchen Architecture](<img width="719" height="776" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/58420c34-d3c6-4c01-a58c-a6e488b56571" />
-)
+<img width="719" height="776" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/633798e1-5bf7-4240-96de-03ae4450d965" />
+
 
 ### The Agent Chain
 1.  **👁️ Vision Agent (The Input):**
