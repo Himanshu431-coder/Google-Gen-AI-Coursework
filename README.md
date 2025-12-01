@@ -83,6 +83,43 @@ A persistent `user_profile` dictionary acts as **Long-Term Memory**.
 
 ---
 
+### 5.🚀 How to Run
+Option 1: Google Colab (Recommended)
+For the best interactive experience (including the Audio Dashboard), run the notebook directly in the browser:
+
+Open JARVIS_Kitchen.ipynb in Google Colab.
+Add your API Key securely when prompted.
+Run All Cells.
+Option 2: Run Locally
+Prerequisites
+
+Python 3.9+
+Google Gemini API Key
+1. Clone the Repository
+
+Bash
+
+git clone https://github.com/YOUR_USERNAME/jarvis-kitchen.git
+cd jarvis-kitchen
+2. Install Dependencies
+
+Bash
+
+pip install -r requirements.txt
+3. Run the Agent
+
+Bash
+
+# Set your API Key (Linux/Mac)
+export GOOGLE_API_KEY="your_key_here"
+
+# Run the script
+python agent_logic.py
+
+### 6.🔮 Future Roadmap
+Hardware Integration: Connect the Vision Agent to a live Raspberry Pi camera feed for real-time pantry tracking.
+API Action: Upgrade the Shopper Agent to connect directly to the Instacart API for one-click ordering.
+Voice Input: Add Whisper integration to allow the user to speak back to the agent.
 ## 🔉 Live Demo & Outputs
 
 When the system runs, it produces two tangible artifacts:
@@ -97,8 +134,7 @@ A physical text file saved to the disk:
 [JARVIS SHOPPING LIST]
 - Feta Cheese
 - Olive Oil
-- Black Pepper
-
+- Black Pepper 
 
 
 
